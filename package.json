@@ -1,19 +1,18 @@
 {
-  "name": "pdf-server",
+  "name": "pdf-server-gtm",
   "version": "1.0.0",
-  "description": "",
+  "description": "PDF generation server for Gestionatusmarcas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "axios": "^1.10.0",
+    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "puppeteer": "^24.11.2"
+    "puppeteer": "^21.3.8"
   }
 }
